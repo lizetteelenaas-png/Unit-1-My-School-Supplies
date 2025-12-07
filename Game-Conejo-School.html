@@ -228,45 +228,45 @@
 </div>
 
 <div class="targets" id="targetArea">
-  <div class="dropzone" data-match="bedroom"><img src="bedroom.jpg" alt="bedroom">
-      <button class="play-button" onclick="playAudio('bedroomAudio')">▶️</button>
-      <audio id="bedroomAudio" src="bedroom.mp3"></audio></div>
+  <div class="dropzone" data-match="boy"><img src="boy.jpg" alt="boy">
+      <button class="play-button" onclick="playAudio('boyAudio')">▶️</button>
+      <audio id="boyAudio" src="boy.mp3"></audio></div>
   
-  <div class="dropzone" data-match="bed"><img src="bed4.jpg" alt="bed">
-      <button class="play-button" onclick="playAudio('bedAudio')">▶️</button>
-    <audio id="bedAudio" src="bed.mp3"></audio></div>
+  <div class="dropzone" data-match="girl"><img src="girl.jpg" alt="girl">
+      <button class="play-button" onclick="playAudio('girlAudio')">▶️</button>
+    <audio id="girlAudio" src="girl.mp3"></audio></div>
+  
+  <div class="dropzone" data-match="goodbye"><img src="goodbye.jpg" alt="goodbye">
+      <button class="play-button" onclick="playAudio('goodbyeAudio')">▶️</button>
+      <audio id="goodbyeAudio" src="goodbye.mp3"></audio></div>
+  
+  <div class="hello" data-match="hello"><img src="hello.jpg" alt="hello">
+      <button class="play-button" onclick="playAudio('helloAudio')">▶️</button>
+      <audio id="helloAudio" src="hello.mp3"></audio></div>
+  
+  <div class="dropzone" data-match="teacher"><img src="teacher.jpg" alt="teacher">
+      <button class="play-button" onclick="playAudio('teacherAudio')">▶️</button>
+      <audio id="teacherAudio" src="teacher.mp3"></audio></div>
+  
+  <div class="dropzone" data-match="name"><img src="name.jpg" alt="name">
+      <button class="play-button" onclick="playAudio('nameAudio')">▶️</button>
+      <audio id="nameAudio" src="name.mp3"></audio></div>
+  
+  <div class="dropzone" data-match="book"><img src="book.jpg" alt="book">
+      <button class="play-button" onclick="playAudio('bookAudio')">▶️</button>
+      <audio id="bookAudio" src="book.mp3"></audio></div>
   
   <div class="dropzone" data-match="chair"><img src="chair.jpg" alt="chair">
       <button class="play-button" onclick="playAudio('chairAudio')">▶️</button>
       <audio id="chairAudio" src="chair.mp3"></audio></div>
   
-  <div class="dropzone" data-match="lamp"><img src="lamp.jpg" alt="lamp">
-      <button class="play-button" onclick="playAudio('lampAudio')">▶️</button>
-      <audio id="lampAudio" src="lamp.mp3"></audio></div>
-  
-  <div class="dropzone" data-match="mat"><img src="mat.jpg" alt="mat">
-      <button class="play-button" onclick="playAudio('matAudio')">▶️</button>
-      <audio id="matAudio" src="mat.mp3"></audio></div>
-  
-  <div class="dropzone" data-match="pillow"><img src="pillow.jpg" alt="pillow">
-      <button class="play-button" onclick="playAudio('pillowAudio')">▶️</button>
-      <audio id="pillowAudio" src="pillow.mp3"></audio></div>
-  
   <div class="dropzone" data-match="table"><img src="table.jpg" alt="table">
       <button class="play-button" onclick="playAudio('tableAudio')">▶️</button>
-      <audio id="tableAudio" src="table.mp3"></audio></div>
+      <audio id="table" src="table.mp3"></audio></div>
   
-  <div class="dropzone" data-match="share"><img src="share.jpg" alt="share">
-      <button class="play-button" onclick="playAudio('shareAudio')">▶️</button>
-      <audio id="shareAudio" src="share.mp3"></audio></div>
-  
-  <div class="dropzone" data-match="teddy bear"><img src="teddy bear.jpg" alt="teddy bear">
-      <button class="play-button" onclick="playAudio('teddyAudio')">▶️</button>
-      <audio id="teddyAudio" src="teddy-bear.mp3"></audio></div>
-  
-  <div class="dropzone" data-match="toys"><img src="toys.jpg" alt="toys">
-      <button class="play-button" onclick="playAudio('toysAudio')">▶️</button>
-      <audio id="toysAudio" src="toys.mp3"></audio></div>
+  <div class="dropzone" data-match="crayons"><img src="crayons.jpg" alt="crayons">
+      <button class="play-button" onclick="playAudio('crayonsAudio')">▶️</button>
+      <audio id="crayonsAudio" src="crayons.mp3"></audio></div>
 </div>
   
   <div class="feedback-line" id="feedbackLine"></div>
@@ -278,7 +278,7 @@
 </div>
 
 <script>
-let emotions=["bedroom","bed","chair","lamp","mat","pillow","table","share","teddy bear","toys"];
+let emotions=["boy","girl","goodbye","hello","teacher","My name is","book","chair","table","crayons"];
 const bunny=document.getElementById("bunny");
 const egg=document.getElementById("egg");
 const feedbackLine=document.getElementById("feedbackLine");
@@ -420,6 +420,7 @@ function showResult(){
 </script>
 </body>
 </html>
+
 
 
 
